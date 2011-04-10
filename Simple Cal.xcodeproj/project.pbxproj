@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D57364F91351C7E9003E1D97 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57364F81351C7E9003E1D97 /* Cocoa.framework */; };
+		D57365031351C7E9003E1D97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D57365011351C7E9003E1D97 /* InfoPlist.strings */; };
+		D57365061351C7E9003E1D97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D57365051351C7E9003E1D97 /* main.m */; };
+		D57365091351C7E9003E1D97 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D57365071351C7E9003E1D97 /* Credits.rtf */; };
+		D573650C1351C7E9003E1D97 /* Simple_CalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D573650B1351C7E9003E1D97 /* Simple_CalAppDelegate.m */; };
+		D573650F1351C7E9003E1D97 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D573650D1351C7E9003E1D97 /* MainMenu.xib */; };
+		D57365161351C7EA003E1D97 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57364F81351C7E9003E1D97 /* Cocoa.framework */; };
+		D573651E1351C7EA003E1D97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D573651C1351C7EA003E1D97 /* InfoPlist.strings */; };
+		D57365211351C7EA003E1D97 /* Simple_CalTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D57365201351C7EA003E1D97 /* Simple_CalTests.h */; };
+		D57365231351C7EA003E1D97 /* Simple_CalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D57365221351C7EA003E1D97 /* Simple_CalTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D57365171351C7EA003E1D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57364EB1351C7E8003E1D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D57364F31351C7E9003E1D97;
+			remoteInfo = "Simple Cal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D57364F41351C7E9003E1D97 /* Simple Cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57364F81351C7E9003E1D97 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D57364FB1351C7E9003E1D97 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D57364FC1351C7E9003E1D97 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D57364FD1351C7E9003E1D97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D57365001351C7E9003E1D97 /* Simple Cal-Info.plist */ = {isa = PBXFileReference; path = "Simple Cal-Info.plist"; sourceTree = "<group>"; };
+		D57365021351C7E9003E1D97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D57365041351C7E9003E1D97 /* Simple Cal-Prefix.pch */ = {isa = PBXFileReference; path = "Simple Cal-Prefix.pch"; sourceTree = "<group>"; };
+		D57365051351C7E9003E1D97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D57365081351C7E9003E1D97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D573650A1351C7E9003E1D97 /* Simple_CalAppDelegate.h */ = {isa = PBXFileReference; path = Simple_CalAppDelegate.h; sourceTree = "<group>"; };
+		D573650B1351C7E9003E1D97 /* Simple_CalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_CalAppDelegate.m; sourceTree = "<group>"; };
+		D573650E1351C7E9003E1D97 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D57365151351C7EA003E1D97 /* Simple CalTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple CalTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D573651B1351C7EA003E1D97 /* Simple CalTests-Info.plist */ = {isa = PBXFileReference; path = "Simple CalTests-Info.plist"; sourceTree = "<group>"; };
+		D573651D1351C7EA003E1D97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D573651F1351C7EA003E1D97 /* Simple CalTests-Prefix.pch */ = {isa = PBXFileReference; path = "Simple CalTests-Prefix.pch"; sourceTree = "<group>"; };
+		D57365201351C7EA003E1D97 /* Simple_CalTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_CalTests.h; sourceTree = "<group>"; };
+		D57365221351C7EA003E1D97 /* Simple_CalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_CalTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D57364F11351C7E9003E1D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57364F91351C7E9003E1D97 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57365111351C7EA003E1D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57365161351C7EA003E1D97 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D57364E91351C7E8003E1D97 = {
+			isa = PBXGroup;
+			children = (
+				D57364FE1351C7E9003E1D97 /* Simple Cal */,
+				D57365191351C7EA003E1D97 /* Simple CalTests */,
+				D57364F71351C7E9003E1D97 /* Frameworks */,
+				D57364F51351C7E9003E1D97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D57364F51351C7E9003E1D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D57364F41351C7E9003E1D97 /* Simple Cal.app */,
+				D57365151351C7EA003E1D97 /* Simple CalTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D57364F71351C7E9003E1D97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D57364F81351C7E9003E1D97 /* Cocoa.framework */,
+				D57364FA1351C7E9003E1D97 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D57364FA1351C7E9003E1D97 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D57364FB1351C7E9003E1D97 /* AppKit.framework */,
+				D57364FC1351C7E9003E1D97 /* CoreData.framework */,
+				D57364FD1351C7E9003E1D97 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D57364FE1351C7E9003E1D97 /* Simple Cal */ = {
+			isa = PBXGroup;
+			children = (
+				D573650A1351C7E9003E1D97 /* Simple_CalAppDelegate.h */,
+				D573650B1351C7E9003E1D97 /* Simple_CalAppDelegate.m */,
+				D573650D1351C7E9003E1D97 /* MainMenu.xib */,
+				D57364FF1351C7E9003E1D97 /* Supporting Files */,
+			);
+			path = "Simple Cal";
+			sourceTree = "<group>";
+		};
+		D57364FF1351C7E9003E1D97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D57365001351C7E9003E1D97 /* Simple Cal-Info.plist */,
+				D57365011351C7E9003E1D97 /* InfoPlist.strings */,
+				D57365041351C7E9003E1D97 /* Simple Cal-Prefix.pch */,
+				D57365051351C7E9003E1D97 /* main.m */,
+				D57365071351C7E9003E1D97 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D57365191351C7EA003E1D97 /* Simple CalTests */ = {
+			isa = PBXGroup;
+			children = (
+				D57365201351C7EA003E1D97 /* Simple_CalTests.h */,
+				D57365221351C7EA003E1D97 /* Simple_CalTests.m */,
+				D573651A1351C7EA003E1D97 /* Supporting Files */,
+			);
+			path = "Simple CalTests";
+			sourceTree = "<group>";
+		};
+		D573651A1351C7EA003E1D97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D573651B1351C7EA003E1D97 /* Simple CalTests-Info.plist */,
+				D573651C1351C7EA003E1D97 /* InfoPlist.strings */,
+				D573651F1351C7EA003E1D97 /* Simple CalTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D57364F31351C7E9003E1D97 /* Simple Cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57365261351C7EA003E1D97 /* Build configuration list for PBXNativeTarget "Simple Cal" */;
+			buildPhases = (
+				D57364F01351C7E9003E1D97 /* Sources */,
+				D57364F11351C7E9003E1D97 /* Frameworks */,
+				D57364F21351C7E9003E1D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Cal";
+			productName = "Simple Cal";
+			productReference = D57364F41351C7E9003E1D97 /* Simple Cal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D57365141351C7EA003E1D97 /* Simple CalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57365291351C7EA003E1D97 /* Build configuration list for PBXNativeTarget "Simple CalTests" */;
+			buildPhases = (
+				D57365101351C7EA003E1D97 /* Sources */,
+				D57365111351C7EA003E1D97 /* Frameworks */,
+				D57365121351C7EA003E1D97 /* Resources */,
+				D57365131351C7EA003E1D97 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D57365181351C7EA003E1D97 /* PBXTargetDependency */,
+			);
+			name = "Simple CalTests";
+			productName = "Simple CalTests";
+			productReference = D57365151351C7EA003E1D97 /* Simple CalTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D57364EB1351C7E8003E1D97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "kuwait university";
+			};
+			buildConfigurationList = D57364EE1351C7E9003E1D97 /* Build configuration list for PBXProject "Simple Cal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D57364E91351C7E8003E1D97;
+			productRefGroup = D57364F51351C7E9003E1D97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D57364F31351C7E9003E1D97 /* Simple Cal */,
+				D57365141351C7EA003E1D97 /* Simple CalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D57364F21351C7E9003E1D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57365031351C7E9003E1D97 /* InfoPlist.strings in Resources */,
+				D57365091351C7E9003E1D97 /* Credits.rtf in Resources */,
+				D573650F1351C7E9003E1D97 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57365121351C7EA003E1D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D573651E1351C7EA003E1D97 /* InfoPlist.strings in Resources */,
+				D57365211351C7EA003E1D97 /* Simple_CalTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D57365131351C7EA003E1D97 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D57364F01351C7E9003E1D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57365061351C7E9003E1D97 /* main.m in Sources */,
+				D573650C1351C7E9003E1D97 /* Simple_CalAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57365101351C7EA003E1D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57365231351C7EA003E1D97 /* Simple_CalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D57365181351C7EA003E1D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D57364F31351C7E9003E1D97 /* Simple Cal */;
+			targetProxy = D57365171351C7EA003E1D97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D57365011351C7E9003E1D97 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D57365021351C7E9003E1D97 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D57365071351C7E9003E1D97 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D57365081351C7E9003E1D97 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D573650D1351C7E9003E1D97 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D573650E1351C7E9003E1D97 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D573651C1351C7EA003E1D97 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D573651D1351C7EA003E1D97 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D57365241351C7EA003E1D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D57365251351C7EA003E1D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D57365271351C7EA003E1D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Cal/Simple Cal-Prefix.pch";
+				INFOPLIST_FILE = "Simple Cal/Simple Cal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D57365281351C7EA003E1D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Cal/Simple Cal-Prefix.pch";
+				INFOPLIST_FILE = "Simple Cal/Simple Cal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D573652A1351C7EA003E1D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple Cal.app/Contents/MacOS/Simple Cal";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple CalTests/Simple CalTests-Prefix.pch";
+				INFOPLIST_FILE = "Simple CalTests/Simple CalTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D573652B1351C7EA003E1D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple Cal.app/Contents/MacOS/Simple Cal";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple CalTests/Simple CalTests-Prefix.pch";
+				INFOPLIST_FILE = "Simple CalTests/Simple CalTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D57364EE1351C7E9003E1D97 /* Build configuration list for PBXProject "Simple Cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57365241351C7EA003E1D97 /* Debug */,
+				D57365251351C7EA003E1D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D57365261351C7EA003E1D97 /* Build configuration list for PBXNativeTarget "Simple Cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57365271351C7EA003E1D97 /* Debug */,
+				D57365281351C7EA003E1D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D57365291351C7EA003E1D97 /* Build configuration list for PBXNativeTarget "Simple CalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D573652A1351C7EA003E1D97 /* Debug */,
+				D573652B1351C7EA003E1D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D57364EB1351C7E8003E1D97 /* Project object */;
+}
