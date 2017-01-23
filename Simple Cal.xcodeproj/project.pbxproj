@@ -17,6 +17,8 @@
 		D573651E1351C7EA003E1D97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D573651C1351C7EA003E1D97 /* InfoPlist.strings */; };
 		D57365211351C7EA003E1D97 /* Simple_CalTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D57365201351C7EA003E1D97 /* Simple_CalTests.h */; };
 		D57365231351C7EA003E1D97 /* Simple_CalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D57365221351C7EA003E1D97 /* Simple_CalTests.m */; };
+		D57365361351CC2C003E1D97 /* SimpleController.m in Sources */ = {isa = PBXBuildFile; fileRef = D57365351351CC2C003E1D97 /* SimpleController.m */; };
+		D57365371351CC2C003E1D97 /* SimpleController.m in Sources */ = {isa = PBXBuildFile; fileRef = D57365351351CC2C003E1D97 /* SimpleController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +37,22 @@
 		D57364FB1351C7E9003E1D97 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		D57364FC1351C7E9003E1D97 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D57364FD1351C7E9003E1D97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D57365001351C7E9003E1D97 /* Simple Cal-Info.plist */ = {isa = PBXFileReference; path = "Simple Cal-Info.plist"; sourceTree = "<group>"; };
+		D57365001351C7E9003E1D97 /* Simple Cal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Cal-Info.plist"; sourceTree = "<group>"; };
 		D57365021351C7E9003E1D97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D57365041351C7E9003E1D97 /* Simple Cal-Prefix.pch */ = {isa = PBXFileReference; path = "Simple Cal-Prefix.pch"; sourceTree = "<group>"; };
+		D57365041351C7E9003E1D97 /* Simple Cal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple Cal-Prefix.pch"; sourceTree = "<group>"; };
 		D57365051351C7E9003E1D97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D57365081351C7E9003E1D97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		D573650A1351C7E9003E1D97 /* Simple_CalAppDelegate.h */ = {isa = PBXFileReference; path = Simple_CalAppDelegate.h; sourceTree = "<group>"; };
+		D573650A1351C7E9003E1D97 /* Simple_CalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_CalAppDelegate.h; sourceTree = "<group>"; };
 		D573650B1351C7E9003E1D97 /* Simple_CalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_CalAppDelegate.m; sourceTree = "<group>"; };
 		D573650E1351C7E9003E1D97 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D57365151351C7EA003E1D97 /* Simple CalTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple CalTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D573651B1351C7EA003E1D97 /* Simple CalTests-Info.plist */ = {isa = PBXFileReference; path = "Simple CalTests-Info.plist"; sourceTree = "<group>"; };
+		D573651B1351C7EA003E1D97 /* Simple CalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple CalTests-Info.plist"; sourceTree = "<group>"; };
 		D573651D1351C7EA003E1D97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D573651F1351C7EA003E1D97 /* Simple CalTests-Prefix.pch */ = {isa = PBXFileReference; path = "Simple CalTests-Prefix.pch"; sourceTree = "<group>"; };
+		D573651F1351C7EA003E1D97 /* Simple CalTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple CalTests-Prefix.pch"; sourceTree = "<group>"; };
 		D57365201351C7EA003E1D97 /* Simple_CalTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_CalTests.h; sourceTree = "<group>"; };
 		D57365221351C7EA003E1D97 /* Simple_CalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_CalTests.m; sourceTree = "<group>"; };
+		D57365341351CC2C003E1D97 /* SimpleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleController.h; sourceTree = "<group>"; };
+		D57365351351CC2C003E1D97 /* SimpleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 		D57364E91351C7E8003E1D97 = {
 			isa = PBXGroup;
 			children = (
+				D57365341351CC2C003E1D97 /* SimpleController.h */,
+				D57365351351CC2C003E1D97 /* SimpleController.m */,
 				D57364FE1351C7E9003E1D97 /* Simple Cal */,
 				D57365191351C7EA003E1D97 /* Simple CalTests */,
 				D57364F71351C7E9003E1D97 /* Frameworks */,
@@ -197,6 +203,7 @@
 		D57364EB1351C7E8003E1D97 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "kuwait university";
 			};
 			buildConfigurationList = D57364EE1351C7E9003E1D97 /* Build configuration list for PBXProject "Simple Cal" */;
@@ -262,6 +269,7 @@
 			files = (
 				D57365061351C7E9003E1D97 /* main.m in Sources */,
 				D573650C1351C7E9003E1D97 /* Simple_CalAppDelegate.m in Sources */,
+				D57365361351CC2C003E1D97 /* SimpleController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D57365231351C7EA003E1D97 /* Simple_CalTests.m in Sources */,
+				D57365371351CC2C003E1D97 /* SimpleController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,14 +331,28 @@
 		D57365241351C7EA003E1D97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
@@ -340,11 +363,24 @@
 		D57365251351C7EA003E1D97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
@@ -361,6 +397,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simple Cal/Simple Cal-Prefix.pch";
 				INFOPLIST_FILE = "Simple Cal/Simple Cal-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "KU.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -376,6 +413,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simple Cal/Simple Cal-Prefix.pch";
 				INFOPLIST_FILE = "Simple Cal/Simple Cal-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "KU.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -397,6 +435,7 @@
 					"-framework",
 					SenTestingKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KU.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -419,6 +458,7 @@
 					"-framework",
 					SenTestingKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KU.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -444,6 +484,7 @@
 				D57365281351C7EA003E1D97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D57365291351C7EA003E1D97 /* Build configuration list for PBXNativeTarget "Simple CalTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +493,7 @@
 				D573652B1351C7EA003E1D97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
